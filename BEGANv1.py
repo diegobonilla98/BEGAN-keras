@@ -17,7 +17,7 @@ K.set_session(session)
 
 
 class BEGAN:
-    def __init__(self):
+    def __init__(self, is_test=False):
         self.image_shape = (128, 128, 3)
         self.batch_size = 16
         self.noise_input = 64
@@ -32,6 +32,9 @@ class BEGAN:
         self.generator = self.create_generator()
         self.generator.summary()
         plot_model(self.generator, 'generator.png', show_shapes=True)
+
+        if is_test:
+            return
 
         self.encoder = self.create_encoder()
         self.encoder.summary()
@@ -236,5 +239,5 @@ class BEGAN:
                 plt.close()
 
 
-gan = BEGAN()
-gan.train(90_000)
+# gan = BEGAN()
+# gan.train(90_000)

@@ -1,5 +1,5 @@
 # BEGAN-keras
-A BEGAN implementation using idiomatic keras
+A BEGAN implementation using idiomatic keras. I've not seen a good implementation anywhere using keras, soooo hopefully this is the one.
 
 [Original Paper](https://arxiv.org/pdf/1703.10717.pdf)
 
@@ -8,4 +8,14 @@ Helped by the TensorFlow implementation of [hmi88](https://github.com/hmi88/BEGA
 
 ## Training
 
-Using the CelebA dataset jointly with the UTKFace (for some reason, but doesn't really help anything). Imo the DataLoader class is pretty self explanatory, if you don't get it, why are you jumping to GANs?
+Using the CelebA dataset jointly with the UTKFace (for some reason, but doesn't really help anything). Imo the DataLoader class is pretty self explanatory, if you don't get it ask me, but, why are you jumping into GANs?
+
+
+## Results
+**OMG, IT WORKED!!** It costed a lot, but here are the results:
+
+![](./9_faces.png)
+
+![](./random_walk.png)
+
+![](./100_faces.png)

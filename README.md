@@ -15,10 +15,15 @@ Using the CelebA dataset jointly with the UTKFace (for some reason, but doesn't 
 **OMG, IT WORKED!!** It costed a lot, but here are the results:
 
 Some random sampled faces:
+
 ![](./9_faces.png)
 
+
 A face transition between two random multidimiensional points:
+
 ![](./random_walk.png)
 
+
 Some more because why not:
+
 ![](./100_faces.png)
